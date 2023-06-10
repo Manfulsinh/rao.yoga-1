@@ -1,0 +1,155 @@
+
+/* navbar start */
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#header{
+
+height: 118px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.bg-image {
+
+    background-image: url(./img/Floral.png);
+    background-size: cover;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    font-size: 17px;
+}
+
+/* navbar and */
+
+
+.your boday {
+
+    font-size: 75px;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    font-size: 17px;
+}
+
+
+.p value {
+
+    font-size: 21px;
+}
+
+
+div .btn{
+    background-color:#c0c3d4;
+    font-size: 21px;
+    justify-content: center;
+ }
+ div p{
+     font-size: 21px;
+ }
+ div h3{
+     font-size:58px ;
+     font-weight: bold;
+ }
+ div h6{
+     font-size: 20px;
+     color: aqua;
+     text-transform: capitalize;
+
+ }
+ div .p{
+     font-size: 17px;
+     text-transform: capitalize;
+     color: #ffffff;
+ }
+ div a{
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+
+
+
+
+ 
+.card{
+    display: flex;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body:hover{
+    color: yellow;
+    transition: 0.2s;
+    background-color: lightgreen;
+}
+
+.card h5{
+    font-weight: bolds;
+}40px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b1 h1{
+    font-weight: bold;
+}
+
+.bb{
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius:3px;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+}
+.bb h1{
+    font-size: 20px;
+}
+
+i{
+    font-size: 30px;
+}
+
+
+.bb:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+
+img.img-tt {
+    /* margin: -8px; */
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 3px 2px  2px 8px);
+}
+
+
+
+.col.mk {
+    /* margin-bottom: 45px; */
+    margin-top: 89px;
+}
