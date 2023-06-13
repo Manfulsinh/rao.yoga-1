@@ -1,4 +1,6 @@
-
+.container{
+    
+    margin: auto;}
 /* navbar start */
 
 *{
@@ -22,6 +24,9 @@ justify-content: flex-end;
     background-size: cover;
 }
 
+.mind h3 {
+    font-size: 60px;
+}
 
 nav.navbar.navbar-expand-lg.navbar-light {
     font-size: 17px;
@@ -96,19 +101,7 @@ div .btn{
 
 .card h5{
     font-weight: bolds;
-}40px
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -117,7 +110,7 @@ div .btn{
     font-weight: bold;
 }
 
-.bb{
+.services{
     background: #fff;
     border: medium none;
     padding: 50px !important;
@@ -126,7 +119,7 @@ div .btn{
     width: 100%;
     height: auto;
 }
-.bb h1{
+.services h1{
     font-size: 20px;
 }
 
@@ -135,7 +128,7 @@ i{
 }
 
 
-.bb:hover{
+.services:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     transform: translateY(-20px);
 }
@@ -157,4 +150,62 @@ img.img-tt {
 
 .mk {
     margin-top: 89px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    h3.mind {
+        font-size: 28px;
+    }
+
+    .div p {
+        font-size: 18px;
+        color: black;
+    }
+
+    .row {
+        margin-right: 0px!important;
+    }
+    .row.team {
+        margin-right: 0px;
+    }
+
+
+    h3.women {
+        color: #fff; 
+        font-size: 53px;
+    }
+    .Program {
+        text-align: center;
+        margin-left: 47px;
+    }
+
+    button.btn {
+        font-size: 26px;
+    }
+    .bb.col-md-4.col-sm-6.services {
+        width: 100%;
+    }
+
+    div h3 {
+        font-size: 27px;
+        /* font-weight: bold; */
+    }
+
+    div p {
+        font-size: 14px;
+    }
+
+    .col-lg-6.yoga {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+
+
+    button.btn {
+        font-size: 19px;
+    }
+
+
 }
