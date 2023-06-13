@@ -208,4 +208,9 @@ img.img-tt {
     }
 
 
+    .bb img {
+        max-width: 100%;
+    }
+
+
 }
